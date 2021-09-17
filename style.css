@@ -878,6 +878,10 @@ body._pc .button-stop:hover{
     }
 }
 @media(max-width: 830px){
+    .futer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
     .main-info{
         flex-direction: column;
         align-items: center;
@@ -891,6 +895,10 @@ body._pc .button-stop:hover{
     }
 }
 @media(max-width: 500px){
+    .futer{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
     .monuments__elm{
         flex-direction: column;
     }
