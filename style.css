@@ -422,7 +422,7 @@ body._pc .info-slider__next:hover .icon-down-arrow{
 .small-separation__down{
     position: absolute;
     bottom: 0;
-    transform: translateY(100%);
+    transform: translateY(1px);
     left: 0;
     width: 100%;
     z-index: 2;
@@ -430,7 +430,7 @@ body._pc .info-slider__next:hover .icon-down-arrow{
 .small-separation__up{
     position: absolute;
     top: 0;
-    transform: rotate(180deg) translateY(100%);
+    transform: rotate(180deg) translateY(1px);
     left: 0;
     width: 100%;
     z-index: 2;
